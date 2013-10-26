@@ -1,39 +1,54 @@
-body{
-	height: 100%;
-	margin: 0px;
-	padding: 0px;
+body{height: 100%;margin: 0px;padding: 0px;	background: #4DBCE9;}
+#header{position: fixed;top:0px;width: 100%;background-color: black;text-align: right;}
+#header > a{cursor:pointer;padding: 5px 10px;font: normal 13px/32px "Open Sans", sans-serif;color: #eee;text-shadow: #444 0px -1px 0px;text-decoration: none;}
+#header > a:hover{color: #2ea2cc;}
+#roomCont{position: absolute;margin: auto;width: 30%;height:40%;border: 1px solid #26ADE4;border-radius: 10px;top: 0px;bottom: 0px;left: 0px;right: 0px;text-align: center;background-color: rgba(209,231,81,0.7);-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.13);box-shadow: 0 1px 3px rgba(0,0,0,0.13);}
+#inpCont{margin-top:15%;}
+#inpCont >div{width: 80%;margin: auto;margin-bottom: 2%;}
+#roomCont input{width: 90%;font-size: 20px;padding: 4px;}
 
-}
-#header{
-	position: fixed;
-	top:0px;	
-	width: 100%;
-	background-color: black;		
-	
-	text-align: right;
-}
-#header > a{
-	cursor:pointer;
-	padding: 5px 10px;
-	font: normal 13px/32px "Open Sans", sans-serif;
-	color: #eee;
-	text-shadow: #444 0px -1px 0px;
-	text-decoration: none;
-}
-
-#header > a:hover{
-	color: #2ea2cc;
-
-}
-#container{
-	position: absolute;
-	margin: auto;
-	width: 40%;
-	height:60%;	
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	text-align: center;
-
-}
+    .myButton {
+        
+        -moz-box-shadow:inset 0px 1px 0px 0px #9acc85;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #9acc85;
+        box-shadow:inset 0px 1px 0px 0px #9acc85;
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #74ad5a), color-stop(1, #68a54b));
+        background:-moz-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+        background:-webkit-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+        background:-o-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+        background:-ms-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+        background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#74ad5a', endColorstr='#68a54b',GradientType=0);
+        
+        background-color:#74ad5a;
+        
+        border:1px solid #3b6e22;
+        
+        display:inline-block;
+        color:#ffffff;
+        font-family:arial;
+        font-size:13px;
+        font-weight:bold;
+        padding:6px 12px;
+        text-decoration:none;
+        cursor: pointer;
+        
+    }
+    .myButton:hover {
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #68a54b), color-stop(1, #74ad5a));
+        background:-moz-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+        background:-webkit-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+        background:-o-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+        background:-ms-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+        background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#68a54b', endColorstr='#74ad5a',GradientType=0);
+        
+        background-color:#68a54b;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+div#startCont{margin-top: 4%;}
